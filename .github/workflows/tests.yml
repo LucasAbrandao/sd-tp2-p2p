@@ -1,0 +1,16 @@
+name: Testes
+on: [push, pull_request]
+jobs:
+  tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Testes de protocolo, armazenamento e processos P2P
+        run: python -m unittest discover -s tests -v

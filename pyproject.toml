@@ -1,0 +1,9 @@
+[project]
+name = "sd-tp2-p2p"
+version = "1.0.0"
+description = "Transferência P2P por blocos - Sistemas Distribuídos, TP2"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.ruff]
+line-length = 100

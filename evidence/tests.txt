@@ -1,0 +1,33 @@
+test_file_smaller_than_one_block (test_integration.PeerIntegrationTests.test_file_smaller_than_one_block) ... ok
+test_four_peers_share_before_completing (test_integration.PeerIntegrationTests.test_four_peers_share_before_completing) ... ok
+test_missing_seed_becomes_available_later (test_integration.PeerIntegrationTests.test_missing_seed_becomes_available_later) ... ok
+test_two_peers_with_incomplete_final_block (test_integration.PeerIntegrationTests.test_two_peers_with_incomplete_final_block) ... ok
+test_invalid_numeric_options (test_protocol.ConfigTests.test_invalid_numeric_options) ... ok
+test_invalid_ports_hosts_and_required_fields (test_protocol.ConfigTests.test_invalid_ports_hosts_and_required_fields) ... ok
+test_relative_paths_and_neighbor_deduplication (test_protocol.ConfigTests.test_relative_paths_and_neighbor_deduplication) ... ok
+test_zero_serve_delay_is_allowed (test_protocol.ConfigTests.test_zero_serve_delay_is_allowed) ... ok
+test_fragmented_header_and_body (test_protocol.ProtocolTests.test_fragmented_header_and_body) ... ok
+test_incomplete_live_stream_has_timeout (test_protocol.ProtocolTests.test_incomplete_live_stream_has_timeout) ... ok
+test_invalid_json_utf8_and_non_object (test_protocol.ProtocolTests.test_invalid_json_utf8_and_non_object) ... ok
+test_invalid_size_is_rejected_before_body (test_protocol.ProtocolTests.test_invalid_size_is_rejected_before_body) ... ok
+test_listener_survives_bad_connection_and_serves_partial_blocks (test_protocol.ProtocolTests.test_listener_survives_bad_connection_and_serves_partial_blocks) ... ok
+test_truncated_header_and_body (test_protocol.ProtocolTests.test_truncated_header_and_body) ... ok
+test_two_frames_remain_separate (test_protocol.ProtocolTests.test_two_frames_remain_separate) ... ok
+test_write_applies_framing_and_backpressure (test_protocol.ProtocolTests.test_write_applies_framing_and_backpressure) ... ok
+test_assembly_rejects_wrong_whole_hash_and_preserves_existing_file (test_storage.StorageTests.test_assembly_rejects_wrong_whole_hash_and_preserves_existing_file) ... ok
+test_blocks_assemble_and_duplicate (test_storage.StorageTests.test_blocks_assemble_and_duplicate) ... ok
+test_corruption_after_start_is_not_served_or_assembled (test_storage.StorageTests.test_corruption_after_start_is_not_served_or_assembled) ... ok
+test_empty_file_has_no_blocks_and_can_be_assembled (test_storage.StorageTests.test_empty_file_has_no_blocks_and_can_be_assembled) ... ok
+test_invalid_or_missing_block_does_not_become_available (test_storage.StorageTests.test_invalid_or_missing_block_does_not_become_available) ... ok
+test_metadata_load_rejects_invalid_json_and_non_object (test_storage.StorageTests.test_metadata_load_rejects_invalid_json_and_non_object) ... ok
+test_metadata_rejects_unsafe_names_types_hashes_and_counts (test_storage.StorageTests.test_metadata_rejects_unsafe_names_types_hashes_and_counts) ... ok
+test_metadata_round_trip_and_partial_last_block (test_storage.StorageTests.test_metadata_round_trip_and_partial_last_block) ... ok
+test_parallel_assembly_preserves_order_across_batches (test_storage.StorageTests.test_parallel_assembly_preserves_order_across_batches) ... ok
+test_resume_revalidates_and_recovers_corrupted_block (test_storage.StorageTests.test_resume_revalidates_and_recovers_corrupted_block) ... ok
+test_seed_is_validated_and_served_by_block (test_storage.StorageTests.test_seed_is_validated_and_served_by_block) ... ok
+test_seed_rejects_correct_size_with_wrong_whole_hash (test_storage.StorageTests.test_seed_rejects_correct_size_with_wrong_whole_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 7.647s
+
+OK

@@ -1,0 +1,2 @@
+# Opcional: necessário somente para reconstruir relatorio.pdf.
+reportlab
