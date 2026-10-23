@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-23T00:15:11.590357+00:00",
+  "local_timezone": "America/Sao_Paulo",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_executable": "/Users/pedroronzani/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "macos": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A428\n",
+  "cpu": "Apple M5",
+  "memory_bytes": 17179869184,
+  "git_head": "71147a530ba2d4f30a78b4bd93e15571929c426a",
+  "git_status_before_run": " M tests/test_protocol.py\n?? SD_TP2_2_2026.pdf\n",
+  "transport": "TCP em 127.0.0.1",
+  "runs_per_case": 1,
+  "work_directory": "/Users/pedroronzani/Workspace/personal/repos/sd-tp2-p2p/.runtime/benchmark-macos-2026-10-22",
+  "unit_tests_exit_code": 0,
+  "benchmark_exit_code": 0,
+  "finished_at": "2026-10-23T00:16:20.582905+00:00"
+}

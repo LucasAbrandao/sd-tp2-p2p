@@ -16,7 +16,7 @@ O projeto usa apenas a biblioteca padrão do Python. O código está organizado 
 - Montagem do arquivo em ordem, conferência final de tamanho e SHA-256 e publicação do arquivo completo.
 - Logs em JSON, testes automatizados e estudos de caso com processos reais.
 
-O relatório de decisões e avaliação está em [relatorio.pdf](relatorio.pdf). Os dados dos estudos de caso ficam na pasta [evidence](evidence/).
+O relatório final para entrega, com cinco páginas, está em [relatorio.pdf](relatorio.pdf). Ele usa os resultados do macOS como base e compara brevemente a execução original no Windows. Os dados dos estudos de caso ficam na pasta [evidence](evidence/); a execução de 22/10/2026 está em [evidence/macos-2026-10-22](evidence/macos-2026-10-22/README.md). A fonte LaTeX foi arquivada externamente e não faz parte desta entrega.
 
 ## Como executar
 
@@ -220,11 +220,10 @@ p2p/
 scripts/
   prepare_demo.py       Prepara demonstrações com vizinhos estáticos
   benchmark.py          Executa a matriz e exporta evidências
-  build_report.py       Reconstrói o relatório usando os resultados reais
+  build_report.py       Gerador preservado da versão anterior do relatório
 tests/                  Testes unitários e integração
 evidence/               Resultados preservados dos experimentos
-relatorio.pdf           Decisões de projeto e avaliação dos casos
-docs/relatorio.md       Texto editável do relatório
+relatorio.pdf           Relatório final para entrega, com cinco páginas
 .github/workflows/      Verificação automática no GitHub
 ```
 
@@ -234,13 +233,17 @@ O objetivo é didático, para uma rede controlada com metadados previamente comp
 
 Para limitar memória e mensagens, são aceitos arquivos de até 128 MiB, blocos de até 1 MiB e até 131072 blocos. O envio usa Base64, que aumenta o volume trafegado. A publicação atômica do arquivo final precisa de um sistema de arquivos que aceite hard links, como NTFS ou ext4. As gravações de blocos não forçam sincronização física individual; uma reinicialização revalida o conteúdo salvo, e a montagem final usa `fsync`. A implementação não foi projetada para uso em produção ou avaliação de alta taxa de transferência.
 
-## Reconstruir o relatório
+## Gerador da versão anterior
 
-O PDF pronto já está incluído. Para gerá-lo novamente, instale a dependência opcional e use as evidências da matriz completa:
+O PDF final já está incluído em [relatorio.pdf](relatorio.pdf). Sua fonte LaTeX foi guardada fora do repositório.
+
+O script `scripts/build_report.py` foi mantido como gerador da versão anterior, baseada nos resultados de Windows em `evidence/results.json`. Ele não reconstrói o relatório final. Sua execução **sobrescreve `relatorio.pdf` e recria `docs/relatorio.md`**; para experimentar o gerador, utilize uma cópia separada do projeto.
+
+Nessa cópia, instale a dependência opcional e execute:
 
 ```console
 python -m pip install -r requirements-report.txt
 python scripts/build_report.py
 ```
 
-Essa dependência é usada somente no relatório. O programa P2P e seus testes continuam usando apenas a biblioteca padrão.
+Essa dependência é usada somente pelo gerador antigo. O programa P2P e seus testes continuam usando apenas a biblioteca padrão.

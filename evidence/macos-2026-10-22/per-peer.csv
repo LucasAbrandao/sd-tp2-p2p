@@ -1,0 +1,73 @@
+case,peer,block_count,blocks_received,unique_blocks_received,received_from,blocks_sent,partial_block_sends,partial_sends_to_d,elapsed_seconds,neighbor_errors,retries,connection_errors,stderr_empty,log
+p2_b1024_s10240,A,10,0,0,{},10,0,0,0.001408,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s10240_er7q02rk/logs/A.jsonl
+p2_b1024_s10240,B,10,10,10,"{""A"": 10}",0,0,0,0.045284,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s10240_er7q02rk/logs/B.jsonl
+p2_b1024_s20480,A,20,0,0,{},20,0,0,0.001587,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s20480_q1m1xkg6/logs/A.jsonl
+p2_b1024_s20480,B,20,20,20,"{""A"": 20}",0,0,0,0.051425,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s20480_q1m1xkg6/logs/B.jsonl
+p2_b1024_s1048576,A,1024,0,0,{},1024,0,0,0.022391,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s1048576_wogccsv2/logs/A.jsonl
+p2_b1024_s1048576,B,1024,1024,1024,"{""A"": 1024}",0,0,0,0.640763,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s1048576_wogccsv2/logs/B.jsonl
+p2_b1024_s5242880,A,5120,0,0,{},5120,0,0,0.12422,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s5242880_tmhakx58/logs/A.jsonl
+p2_b1024_s5242880,B,5120,5120,5120,"{""A"": 5120}",0,0,0,3.073964,9,9,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s5242880_tmhakx58/logs/B.jsonl
+p2_b1024_s10485760,A,10240,0,0,{},10240,0,0,0.217268,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s10485760_somuuhx1/logs/A.jsonl
+p2_b1024_s10485760,B,10240,10240,10240,"{""A"": 10240}",0,0,0,6.365471,10,10,1,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s10485760_somuuhx1/logs/B.jsonl
+p2_b1024_s20971520,A,20480,0,0,{},20480,0,0,0.43331,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s20971520_dbwbym7m/logs/A.jsonl
+p2_b1024_s20971520,B,20480,20480,20480,"{""A"": 20480}",0,0,0,13.639032,14,14,0,True,.runtime/benchmark-macos-2026-10-22/p2_b1024_s20971520_dbwbym7m/logs/B.jsonl
+p2_b4096_s10240,A,3,0,0,{},3,0,0,0.001142,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s10240_1wbut4vq/logs/A.jsonl
+p2_b4096_s10240,B,3,3,3,"{""A"": 3}",0,0,0,0.045511,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s10240_1wbut4vq/logs/B.jsonl
+p2_b4096_s20480,A,5,0,0,{},5,0,0,0.001554,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s20480_pqbl5mep/logs/A.jsonl
+p2_b4096_s20480,B,5,5,5,"{""A"": 5}",0,0,0,0.047529,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s20480_pqbl5mep/logs/B.jsonl
+p2_b4096_s1048576,A,256,0,0,{},256,0,0,0.008834,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s1048576_wa9ij4gg/logs/A.jsonl
+p2_b4096_s1048576,B,256,256,256,"{""A"": 256}",0,0,0,0.192026,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s1048576_wa9ij4gg/logs/B.jsonl
+p2_b4096_s5242880,A,1280,0,0,{},1280,0,0,0.037532,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s5242880_flmyf3e6/logs/A.jsonl
+p2_b4096_s5242880,B,1280,1280,1280,"{""A"": 1280}",0,0,0,0.807945,9,9,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s5242880_flmyf3e6/logs/B.jsonl
+p2_b4096_s10485760,A,2560,0,0,{},2560,0,0,0.077065,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s10485760_52dsvg_3/logs/A.jsonl
+p2_b4096_s10485760,B,2560,2560,2560,"{""A"": 2560}",0,0,0,1.600526,9,9,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s10485760_52dsvg_3/logs/B.jsonl
+p2_b4096_s20971520,A,5120,0,0,{},5120,0,0,0.154181,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s20971520_8_vvcebe/logs/A.jsonl
+p2_b4096_s20971520,B,5120,5120,5120,"{""A"": 5120}",0,0,0,3.1898,10,10,0,True,.runtime/benchmark-macos-2026-10-22/p2_b4096_s20971520_8_vvcebe/logs/B.jsonl
+p4_b1024_s10240,A,10,0,0,{},18,0,0,0.001715,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10240_o_1_zffk/logs/A.jsonl
+p4_b1024_s10240,B,10,10,10,"{""A"": 10}",4,3,3,0.085167,8,8,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10240_o_1_zffk/logs/B.jsonl
+p4_b1024_s10240,C,10,10,10,"{""A"": 8, ""D"": 2}",6,3,3,0.108475,14,14,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10240_o_1_zffk/logs/C.jsonl
+p4_b1024_s10240,D,10,10,10,"{""B"": 4, ""C"": 6}",2,2,0,0.16394,21,21,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10240_o_1_zffk/logs/D.jsonl
+p4_b1024_s20480,A,20,0,0,{},31,0,0,0.00185,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20480_t8hk8oii/logs/A.jsonl
+p4_b1024_s20480,B,20,20,20,"{""A"": 15, ""D"": 5}",12,9,9,0.100866,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20480_t8hk8oii/logs/B.jsonl
+p4_b1024_s20480,C,20,20,20,"{""A"": 16, ""D"": 4}",8,8,8,0.148929,15,15,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20480_t8hk8oii/logs/C.jsonl
+p4_b1024_s20480,D,20,20,20,"{""B"": 12, ""C"": 8}",9,9,0,0.183739,21,21,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20480_t8hk8oii/logs/D.jsonl
+p4_b1024_s1048576,A,1024,0,0,{},2021,0,0,0.036623,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s1048576_o5k_ros2/logs/A.jsonl
+p4_b1024_s1048576,B,1024,1024,1024,"{""A"": 1008, ""D"": 16}",552,551,551,0.696949,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s1048576_o5k_ros2/logs/B.jsonl
+p4_b1024_s1048576,C,1024,1024,1024,"{""A"": 1013, ""D"": 11}",472,463,463,0.739718,17,17,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s1048576_o5k_ros2/logs/C.jsonl
+p4_b1024_s1048576,D,1024,1024,1024,"{""B"": 552, ""C"": 472}",27,27,0,0.794195,25,25,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s1048576_o5k_ros2/logs/D.jsonl
+p4_b1024_s5242880,A,5120,0,0,{},6377,0,0,0.217919,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s5242880_cd93u3y5/logs/A.jsonl
+p4_b1024_s5242880,B,5120,5120,5120,"{""A"": 3289, ""D"": 1831}",2266,2259,2259,2.963327,9,9,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s5242880_cd93u3y5/logs/B.jsonl
+p4_b1024_s5242880,C,5120,5120,5120,"{""A"": 3088, ""D"": 2032}",2854,2776,2776,2.882204,15,15,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s5242880_cd93u3y5/logs/C.jsonl
+p4_b1024_s5242880,D,5120,5120,5120,"{""B"": 2266, ""C"": 2854}",3863,3863,0,3.063728,21,21,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s5242880_cd93u3y5/logs/D.jsonl
+p4_b1024_s10485760,A,10240,0,0,{},16444,0,0,0.453324,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10485760_wclgrsmg/logs/A.jsonl
+p4_b1024_s10485760,B,10240,10240,10240,"{""A"": 8236, ""D"": 2004}",3253,3249,3249,7.528588,12,12,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10485760_wclgrsmg/logs/B.jsonl
+p4_b1024_s10485760,C,10240,10240,10240,"{""A"": 8208, ""D"": 2032}",6987,6967,6967,7.588704,18,18,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10485760_wclgrsmg/logs/C.jsonl
+p4_b1024_s10485760,D,10240,10240,10240,"{""B"": 3253, ""C"": 6987}",4036,4036,0,7.692211,21,21,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s10485760_wclgrsmg/logs/D.jsonl
+p4_b1024_s20971520,A,20480,0,0,{},25523,0,0,0.963939,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20971520_7sj8lnzn/logs/A.jsonl
+p4_b1024_s20971520,B,20480,20480,20480,"{""A"": 12272, ""D"": 8208}",10680,10202,10202,14.326578,14,14,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20971520_7sj8lnzn/logs/B.jsonl
+p4_b1024_s20971520,C,20480,20480,20480,"{""A"": 13251, ""D"": 7229}",9800,9787,9787,15.850081,23,23,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20971520_7sj8lnzn/logs/C.jsonl
+p4_b1024_s20971520,D,20480,20480,20480,"{""B"": 10680, ""C"": 9800}",15437,15437,0,15.961082,28,28,0,True,.runtime/benchmark-macos-2026-10-22/p4_b1024_s20971520_7sj8lnzn/logs/D.jsonl
+p4_b4096_s10240,A,3,0,0,{},6,0,0,0.001612,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10240___3k8dtt/logs/A.jsonl
+p4_b4096_s10240,B,3,3,3,"{""A"": 3}",1,1,1,0.060058,8,8,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10240___3k8dtt/logs/B.jsonl
+p4_b4096_s10240,C,3,3,3,"{""A"": 3}",2,0,0,0.095536,15,15,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10240___3k8dtt/logs/C.jsonl
+p4_b4096_s10240,D,3,3,3,"{""B"": 1, ""C"": 2}",0,0,0,0.1405,23,23,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10240___3k8dtt/logs/D.jsonl
+p4_b4096_s20480,A,5,0,0,{},9,0,0,0.001528,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20480_9z_2ymdd/logs/A.jsonl
+p4_b4096_s20480,B,5,5,5,"{""A"": 5}",2,2,2,0.060467,7,7,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20480_9z_2ymdd/logs/B.jsonl
+p4_b4096_s20480,C,5,5,5,"{""A"": 4, ""D"": 1}",3,1,1,0.096146,14,14,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20480_9z_2ymdd/logs/C.jsonl
+p4_b4096_s20480,D,5,5,5,"{""B"": 2, ""C"": 3}",1,1,0,0.137226,20,20,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20480_9z_2ymdd/logs/D.jsonl
+p4_b4096_s1048576,A,256,0,0,{},490,0,0,0.010337,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s1048576_39ctmhjl/logs/A.jsonl
+p4_b4096_s1048576,B,256,256,256,"{""A"": 240, ""D"": 16}",166,161,161,0.213885,8,8,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s1048576_39ctmhjl/logs/B.jsonl
+p4_b4096_s1048576,C,256,256,256,"{""A"": 250, ""D"": 6}",90,86,86,0.259076,17,17,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s1048576_39ctmhjl/logs/C.jsonl
+p4_b4096_s1048576,D,256,256,256,"{""B"": 166, ""C"": 90}",22,22,0,0.29958,22,22,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s1048576_39ctmhjl/logs/D.jsonl
+p4_b4096_s5242880,A,1280,0,0,{},1581,0,0,0.080178,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s5242880_9zsgv0at/logs/A.jsonl
+p4_b4096_s5242880,B,1280,1280,1280,"{""A"": 752, ""D"": 528}",703,668,668,0.818303,9,9,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s5242880_9zsgv0at/logs/B.jsonl
+p4_b4096_s5242880,C,1280,1280,1280,"{""A"": 829, ""D"": 451}",577,569,569,0.897413,16,16,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s5242880_9zsgv0at/logs/C.jsonl
+p4_b4096_s5242880,D,1280,1280,1280,"{""B"": 703, ""C"": 577}",979,979,0,0.942755,22,22,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s5242880_9zsgv0at/logs/D.jsonl
+p4_b4096_s10485760,A,2560,0,0,{},4087,0,0,0.156661,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10485760_2mnpcrfo/logs/A.jsonl
+p4_b4096_s10485760,B,2560,2560,2560,"{""A"": 2032, ""D"": 528}",1736,1730,1730,1.846329,11,11,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10485760_2mnpcrfo/logs/B.jsonl
+p4_b4096_s10485760,C,2560,2560,2560,"{""A"": 2055, ""D"": 505}",824,822,822,1.902207,18,18,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10485760_2mnpcrfo/logs/C.jsonl
+p4_b4096_s10485760,D,2560,2560,2560,"{""B"": 1736, ""C"": 824}",1033,1033,0,1.945904,21,21,1,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s10485760_2mnpcrfo/logs/D.jsonl
+p4_b4096_s20971520,A,5120,0,0,{},6364,0,0,0.329039,0,0,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20971520_23xz_dcb/logs/A.jsonl
+p4_b4096_s20971520,B,5120,5120,5120,"{""A"": 3276, ""D"": 1844}",2253,2249,2249,3.741193,13,13,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20971520_23xz_dcb/logs/B.jsonl
+p4_b4096_s20971520,C,5120,5120,5120,"{""A"": 3088, ""D"": 2032}",2867,2780,2780,3.659445,20,20,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20971520_23xz_dcb/logs/C.jsonl
+p4_b4096_s20971520,D,5120,5120,5120,"{""B"": 2253, ""C"": 2867}",3876,3876,0,3.843374,21,21,0,True,.runtime/benchmark-macos-2026-10-22/p4_b4096_s20971520_23xz_dcb/logs/D.jsonl

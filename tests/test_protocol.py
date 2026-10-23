@@ -162,8 +162,10 @@ class ConfigTests(unittest.TestCase):
     def test_relative_paths_and_neighbor_deduplication(self):
         config = self.load({"neighbors": self.valid["neighbors"] * 2, "seed": "input.bin"})
         self.assertEqual(config.metadata, (self.directory / "../shared/file.meta.json").resolve())
-        self.assertEqual(config.directory, self.directory / "downloads")
-        self.assertEqual(config.seed, self.directory / "input.bin")
+        # No macOS, /var pode ser um link para /private/var. A configuração
+        # normaliza os caminhos; as expectativas devem usar a mesma resolução.
+        self.assertEqual(config.directory, (self.directory / "downloads").resolve())
+        self.assertEqual(config.seed, (self.directory / "input.bin").resolve())
         self.assertEqual(config.neighbors, (("127.0.0.1", 5001),))
 
     def test_invalid_ports_hosts_and_required_fields(self):
